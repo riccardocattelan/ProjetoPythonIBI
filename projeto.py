@@ -1,5 +1,3 @@
-
-
 n=1
 cont=1
 l=[]
@@ -70,7 +68,4 @@ while n!=0 and cont<=50:
 #     if l[j]["quantidade"]==p:
 #         print(f"a fruta com quantidade {p} está na {j} posicao")
 
-print("acabou fim")
-# print(l[0]["nome"])
-# print(l[2]["prato"])
-# print(l[1]["quantidade"])
+print("acabou o codigo")
