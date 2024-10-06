@@ -1,0 +1,3 @@
+O projeto diz respeito a um código em python que tenha a função de Inserir, Buscar e Imprimir. Sendo a função de Imprimir, podendo ser toda a lista ou somente um trecho da lista.
+Porém, para fácil manuseio, existe um Menu para instruir ao usuário o que pode executar no código e como fazer, por exemplo, a utilização de um número se caso a pessoa utilizadora quiser imprimir um trecho.
+O tema escolhido para o código foi atores/atrizes de novela, nesse caso, a pessoa pode indicar qual o nome de um ator/atriz, o ano de nascimento e a altura daquele ator/atriz, tendo que inserir cada valor das chaves cada vez que o código for iniciado, com um limite máximo de 50 itens.
