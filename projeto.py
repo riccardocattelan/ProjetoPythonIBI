@@ -50,14 +50,14 @@ while n!=0 and cont<=46:
     if n==2:
         print("=====A SEGUIR TODA A LISTA ATUAL=====\n")
         for i in range(len(l)): #aqui vai passar por cada posição da lista
-            print(f"\nNome: {l[i]["nome"]}, Ano de Nascimento: {l[i]["ano"]}, Altura: {l[i]["altura"]}\n") #aqui vai imprimir cada dicionário
+            print(f"\nNome: {l[i]['nome']}, Ano de Nascimento: {l[i]['ano']}, Altura: {l[i]['altura']}\n") #aqui vai imprimir cada dicionário
 
     if n==3:
         print("\n**PS: A lista começa com a posição 1, e não com 0**\n")
         c=int(input("\nO trecho que você quer imprimir Começa em qual posição? -> "))
         f=int(input("\nO trecho que você quer imprimir Termina em qual posição? -> "))
         for i in range(f-c+1):  #vai ser feito o FOR a quantidade de vezes entre o final e o inicial indicado pelo usuário, ou seja, se vai do 2 ao 4 então vai ser feito 3 vezes (2, 3 e 4)
-            print(f"\nNome: {l[c+i-1]["nome"]}, Ano de Nascimento: {l[c+i-1]["ano"]} e Altura: {l[c+i-1]["altura"]}\n") #vai ser printado os dicionários um por um, desde o começo, adicionando valor 1 a cada vez que o FOR IN foi rodado, dessa forma para passar para o próximo dicionário
+            print(f"\nNome: {l[c+i-1]['nome']}, Ano de Nascimento: {l[c+i-1]['ano']} e Altura: {l[c+i-1]['altura']}\n") #vai ser printado os dicionários um por um, desde o começo, adicionando valor 1 a cada vez que o FOR IN foi rodado, dessa forma para passar para o próximo dicionário
 
 
                 
